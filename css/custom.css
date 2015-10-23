@@ -1,0 +1,146 @@
+/*
+colors of the Ilhans Website: 
+#3ebd9d - green light
+#35ae92 - green medium
+#14957c - green strong
+*/
+body{
+	color: #666666;
+	background: url("../images/body-bg.png") top left;
+	font-size: 16px;
+}
+.clear {
+	clear: both;
+}
+
+.bodys {
+	background: url("../images/bg_2.png") top left;
+	padding: 50px 0;
+	text-align: center;
+}
+.delimiter {
+	background: url("../images/rib_bg.png") top left repeat-x;
+	width: 100%;
+	height: 200px;
+	padding-top: 70px;
+	vertical-align: middle;
+	color: #fff;
+}
+.delimiter h2{
+	
+	color: #fff;
+	text-align: center;
+}
+.dates {
+	color: #000;
+	text-align: center;
+}
+.dates img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); /* For Webkit browsers */
+	filter: gray; /* For IE 6 - 9 */
+	-webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+}
+.dates img:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+.experts {
+	text-align: center;
+}
+.img-thumbnail {
+	margin: 0 auto;
+	max-width: 250px;
+}
+
+.pad {
+	padding: 25px 0;
+}
+.pad2 {
+	padding: 25px 50px;
+}
+.container, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	padding-right: 0px!important; 
+  	padding-left: 0px!important; 
+}
+
+.page {
+	margin: 0px auto;
+	max-width: 1170px;
+	background-color: #fff;
+}
+
+.logos img {
+	margin: 5px 10px;
+}
+.shapka {
+	background: url("../images/bg2.jpg") no-repeat;
+	min-height: 630px;
+	width: 100%;
+	padding-top: 105px;
+}
+.shapka h1 {
+	color: #000;
+	font-size: 56px;
+	
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(255,255,255, 0.99);
+}
+.gray {
+	background-color: #f0f0f0;
+}
+.padding {
+	margin: 50px 0;
+}
+.webform-client-form-1 {
+	padding: 0 25px;
+}
+.webform-client-form-1 input,
+.webform-client-form-1 select {
+	width: 100%;
+	padding: 5px 10px;
+}
+.pat4 {
+	background: url("../images/pattern4.jpg");
+}
+.pat4 h2 {
+	text-align: center;
+	color: #000;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.99);
+}
+.red {
+	text-align: center;
+	color: #D1011B;
+}
+.city {
+	background: url("../images/bg_city.png") bottom no-repeat;
+}
+.city h2{
+	text-align: center;
+	color: #000;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+.right p, .right h2, .right li {
+	padding: 0 25px 0 0; 
+}
+.img-circle {
+	width: 150px;
+}
+.const {
+	background: url("../images/construction-background.jpg") no-repeat;
+	min-height: 550px;
+	width: 100%;
+}
+footer {
+	background: #2E3135;
+	padding: 10px 25px;
+	color: #fff;
+}
